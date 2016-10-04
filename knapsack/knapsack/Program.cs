@@ -30,7 +30,9 @@ namespace knapsack
                                    else
                                        C[i][w] = C[i - 1][w];
                                Console.WriteLine(C[i][w]);
+                           
                            }
+
          }
         static void Main(string[] args)
         { 
